@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "xero-docs-frontend": {
+      "dependencies": [
+        ""
+      ],
+      "source": [
+        "src/xero-docs-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "xero-docs-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
